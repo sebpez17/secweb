@@ -41,17 +41,17 @@ Prenons une page web développée en PHP permettant de réaliser un ping sur n'i
 </form>
 ```
 
-[image1](images/image1.png)
+![image1](images/image1.png)
 
-[image2](images/image2.png)
+![image2](images/image2.png)
 
 ### La faille :
 
 Le problème est qu'avec une petite connaissance de PHP et du shell unix, on se rend compte rapidement que l'on peut exécuter d'autres commandes en rajoutant un `;` à la fin du dernier champ :
 
-[image3](images/image3.png)
+![image3](images/image3.png)
 
-[image4](images/image4.png)
+![image4](images/image4.png)
 
 ## Correction de la faille
 
@@ -107,9 +107,9 @@ Le code suivent applique la correction proposée :
 
 Re-essayons d'exploiter la faille :
 
-[image5](images/image3.png)
+![image5](images/image3.png)
 
-[image6](images/image5.png)
+![image6](images/image5.png)
 
 ## Conclusion
 
