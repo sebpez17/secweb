@@ -113,7 +113,7 @@ Re-essayons d'exploiter la faille :
 
 ## Conclusion
 
-L'injection est une faille qui peut être très imactante sur les systèmes d'informations, mais en prenant les bonnes dispositions, elle peut être facilement corrigée.
+L'injection est une faille qui peut être très impactante sur les systèmes d'informations, mais en prenant les bonnes dispositions, elle peut être facilement corrigée.
 Dans notre exemple, la faille permettait d'exécuter n'importe quelle commande unix depuis la page web mais une simple regex élimine totalement la faille.
 
 ***Sébastien PEZAC***
